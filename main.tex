@@ -1,0 +1,69 @@
+
+\documentclass[11pt,paper=a4]{scrartcl}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+
+\usepackage{fourier, heuristica}
+\usepackage{lmodern}
+\usepackage{ngerman}
+\usepackage[left=2cm, right=2cm, top=2cm, bottom=2cm,landscape]{geometry}
+\usepackage{tabularx}
+\usepackage{longtable}
+
+
+\usepackage{makecell}
+\setcellgapes{12pt}
+\makegapedcells
+\renewcommand\theadfont{\bfseries}
+\renewcommand\cellalign{c}
+
+\usepackage{makecell}
+
+\newcolumntype{Y}{>{\centering\arraybackslash}X}
+
+\begin{document}
+ \thispagestyle{empty}
+ 
+
+\begin{table}[htb] % Mit float
+\centering 
+\begin{tabularx}{\textwidth}{@{}|l|Y|Y|Y|Y|Y|Y|Y|@{}}
+
+
+\hline 
+Zeit & Montag & Dienstag & Mittwoch & Donnerstag & Freitag & Samstag & Sonntag\\ 
+\hline 
+\,\,\,0 - \,\,\,2 Uhr &  &  &  &  &  &  &  \\ 
+\hline 
+\,\,\,2 - \,\,\,4 Uhr &  &  &  &  &  &  &  \\ 
+\hline 
+\,\,\,4 - \,\,\,6 Uhr &  &  &  &  &  &  &  \\ 
+\hline 
+\,\,\,6 - \,\,\,8 Uhr &  &  &  &  &  &  &  \\ 
+\hline 
+\,\,\,8 - 10 Uhr &  &  &  &  &  &  &  \\ 
+\hline 
+10 - 12 Uhr &  &  &  &  &  &  &  \\ 
+\hline 
+12 - 14 Uhr &  &  &  &  &  &  &  \\ 
+\hline 
+14 - 16 Uhr &  &  &  &  &  &  &  \\ 
+\hline 
+18 - 18 Uhr &  &  &  &  &  &  &  \\ 
+\hline 
+18 - 20 Uhr &  &  &  &  &  &  &  \\ 
+\hline 
+20 - 22 Uhr &  &  &  &  &  &  &  \\ 
+\hline 
+22 - 24 Uhr &  &  &  &  &  &  &  \\ 
+\hline 
+
+
+\end{tabularx}
+\end{table}
+
+
+
+ 
+ 
+\end{document}
